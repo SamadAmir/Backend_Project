@@ -3,7 +3,7 @@ import connectDB from "./db/index.js";
 import dotenv from "dotenv"
 import express from "express"
 
-dotenv.config({path:'./env'})
+dotenv.config()
 
 const app = express()
 
